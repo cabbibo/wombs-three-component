@@ -1,5 +1,6 @@
 
   var Component = require( 'wombs-component' );
+  var _ = require( 'underscore' );
 
   var mutation = {};
 
@@ -15,4 +16,20 @@
 
   }
 
+
+  ThreeComponent.prototype = _.extend(
+    Component.prototype,
+    mutation
+  );
+
+
+  function ThreeComponent( threeObj ){
+
+    Component.call( this );
+    this._three = threeObj;
+
+  }
+
+
+  module.exports = ThreeComponent; 
 
