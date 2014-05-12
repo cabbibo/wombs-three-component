@@ -1,0 +1,24 @@
+{
+  "name": "wombs-three-component",
+  "version": "0.0.0",
+  "description": "component using three.js",
+  "main": "wombs-three-component",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cabbibo/wombs-three-component"
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "wombs"
+  ],
+  "author": "@cabbibo",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/cabbibo/wombs-three-component/issues"
+  },
+  "homepage": "https://github.com/cabbibo/wombs-three-component"
+}
